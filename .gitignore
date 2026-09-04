@@ -1,0 +1,45 @@
+# Environment & secrets
+.env
+*.env
+
+# Credentials / state files
+robin_replied_ids.json
+gork_replied_ids.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Old bot scripts (contain hardcoded keys)
+xbot2.py
+tweets.txt
+tweets_ronin.txt
